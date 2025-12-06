@@ -4,6 +4,8 @@
 
 This document describes the architecture of the Retail Sales Management System, a full-stack web application for managing sales data with advanced search, filtering, sorting, and pagination capabilities.
 
+**Live Application:** https://truestate-sdia.vercel.app/
+
 ---
 
 ## Backend Architecture

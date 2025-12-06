@@ -53,6 +53,12 @@ Server-side pagination with 10 items per page:
 
 Pagination maintains all search, filter, and sort states across page navigation.
 
+## Live Deployment
+
+**Application URL:** https://truestate-sdia.vercel.app/
+
+The application is deployed and running on Vercel.
+
 ## Setup Instructions
 
 ### Prerequisites
