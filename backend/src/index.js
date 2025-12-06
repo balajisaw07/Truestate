@@ -11,7 +11,15 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
+const corsOptions = {
+    origin: [
+        'http://localhost:5173',
+        'http://localhost:5174',
+        'https://truestatefrontend.vercel.app'
+    ],
+    credentials: true
+};
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // Routes
